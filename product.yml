@@ -6,6 +6,11 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
+  rabbitmq:
+    addresses: 192.168.99.100
+    port: 5762
+    username: guest
+    password: guest
 env: dev6
 eureka:
   client:
