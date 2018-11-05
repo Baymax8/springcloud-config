@@ -6,6 +6,9 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
+    bus:
+      refresh:
+        enabled: true
   rabbitmq:
     host: 192.168.99.100
     port: 5672
