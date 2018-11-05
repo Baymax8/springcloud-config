@@ -6,7 +6,7 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
-env: dev
+env: dev2
 eureka:
   client:
     service-url:
