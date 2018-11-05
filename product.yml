@@ -13,7 +13,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 girl:
   name: lala
-  age: 20
+  age: 21
 management:
   endpoints:
     web:
